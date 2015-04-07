@@ -1,0 +1,7 @@
+G:\Studia\Magisterka\Semestr I\Qt\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\zaliczenie_vocoder.exe
+G:\Studia\Magisterka\Semestr I\Qt\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\zaliczenie_vocoder.pdb
+G:\Studia\Magisterka\Semestr I\Qt\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\vocoder.MainForm.resources
+G:\Studia\Magisterka\Semestr I\Qt\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\vocoder.Properties.Resources.resources
+G:\Studia\Magisterka\Semestr I\Qt\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\zaliczenie_vocoder.csproj.GenerateResource.Cache
+G:\Studia\Magisterka\Semestr I\Qt\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\zaliczenie_vocoder.exe
+G:\Studia\Magisterka\Semestr I\Qt\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\zaliczenie_vocoder.pdb
