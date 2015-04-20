@@ -9,17 +9,11 @@ using System.Windows.Forms;
 
 namespace vocoder
 {
-    public partial class MainForm : Form
+    public partial class NewRecordForm : Form
     {
-        public MainForm()
+        public NewRecordForm()
         {
             InitializeComponent();
-        }
-
-        private void new_record_bnt_Click(object sender, EventArgs e)
-        {
-            NewRecordForm form = new NewRecordForm();
-            form.Show();
         }
     }
 }

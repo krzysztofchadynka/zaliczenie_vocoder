@@ -59,6 +59,7 @@
             this.new_record_bnt.TabIndex = 1;
             this.new_record_bnt.Text = "New record";
             this.new_record_bnt.UseVisualStyleBackColor = true;
+            this.new_record_bnt.Click += new System.EventHandler(this.new_record_bnt_Click);
             // 
             // bnt_open_file
             // 
@@ -103,19 +104,19 @@
             // koniecToolStripMenuItem
             // 
             this.koniecToolStripMenuItem.Name = "koniecToolStripMenuItem";
-            this.koniecToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.koniecToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.koniecToolStripMenuItem.Text = "New record";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.openToolStripMenuItem.Text = "Open...";
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.closeToolStripMenuItem.Text = "Close";
             // 
             // MainForm
