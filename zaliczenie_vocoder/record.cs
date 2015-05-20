@@ -15,7 +15,8 @@ namespace vocoder
 
         public Record()
         {
-
+            source = new WaveIn();
+            source.WaveFormat = new WaveFormat(44100, 1);
         }
 
         public void recordAudio()
