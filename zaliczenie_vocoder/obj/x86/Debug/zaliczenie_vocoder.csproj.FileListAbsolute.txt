@@ -17,3 +17,15 @@ G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zalicze
 G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\NAudio.dll
 G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\NAudio.WindowsMediaFormat.dll
 G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\NAudio.xml
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\zaliczenie_vocoder.exe
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\zaliczenie_vocoder.pdb
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\NAudio.dll
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\NAudio.xml
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\zaliczenie_vocoder.csprojResolveAssemblyReference.cache
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\vocoder.MainForm.resources
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\vocoder.NewRecordForm.resources
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\vocoder.Properties.Resources.resources
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\zaliczenie_vocoder.csproj.GenerateResource.Cache
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\zaliczenie_vocoder.exe
+C:\Users\YuichiTK\Documents\GitHub\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\zaliczenie_vocoder.pdb
