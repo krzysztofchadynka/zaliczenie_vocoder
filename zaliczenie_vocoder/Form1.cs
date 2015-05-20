@@ -11,6 +11,8 @@ namespace vocoder
 {
     public partial class MainForm : Form
     {
+        public static string patch;
+
         public MainForm()
         {
             InitializeComponent();
