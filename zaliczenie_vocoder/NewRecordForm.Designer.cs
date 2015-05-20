@@ -32,6 +32,7 @@
             this.record_voiceButton = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.stop_recordButton = new System.Windows.Forms.Button();
+            this.openRecordDialog = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // label1
@@ -75,6 +76,10 @@
             this.stop_recordButton.Visible = false;
             this.stop_recordButton.Click += new System.EventHandler(this.stop_recordButton_Click);
             // 
+            // openRecordDialog
+            // 
+            this.openRecordDialog.FileName = "record";
+            // 
             // NewRecordForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -99,5 +104,6 @@
         private System.Windows.Forms.Button record_voiceButton;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Button stop_recordButton;
+        private System.Windows.Forms.OpenFileDialog openRecordDialog;
     }
 }

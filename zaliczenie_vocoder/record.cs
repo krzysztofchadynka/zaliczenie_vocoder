@@ -19,9 +19,10 @@ namespace vocoder
             source.WaveFormat = new WaveFormat(44100, 1);
         }
 
-        public void recordAudio()
+        public void recordAudio(bool record)
         {
-
+            //if (record)
+                
         }
 
         public void saveFile()
