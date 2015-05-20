@@ -30,9 +30,11 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.record_voiceButton = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.stop_recordButton = new System.Windows.Forms.Button();
             this.openRecordDialog = new System.Windows.Forms.OpenFileDialog();
+            this.selectRecordFolderDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.recordNameTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -48,7 +50,7 @@
             // record_voiceButton
             // 
             this.record_voiceButton.Font = new System.Drawing.Font("Calisto MT", 15.75F, System.Drawing.FontStyle.Bold);
-            this.record_voiceButton.Location = new System.Drawing.Point(148, 118);
+            this.record_voiceButton.Location = new System.Drawing.Point(148, 155);
             this.record_voiceButton.Name = "record_voiceButton";
             this.record_voiceButton.Size = new System.Drawing.Size(174, 51);
             this.record_voiceButton.TabIndex = 1;
@@ -56,18 +58,10 @@
             this.record_voiceButton.UseVisualStyleBackColor = true;
             this.record_voiceButton.Click += new System.EventHandler(this.record_voiceButton_Click);
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(471, 24);
-            this.menuStrip1.TabIndex = 3;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
             // stop_recordButton
             // 
             this.stop_recordButton.Font = new System.Drawing.Font("Calisto MT", 15.75F, System.Drawing.FontStyle.Bold);
-            this.stop_recordButton.Location = new System.Drawing.Point(148, 118);
+            this.stop_recordButton.Location = new System.Drawing.Point(148, 155);
             this.stop_recordButton.Name = "stop_recordButton";
             this.stop_recordButton.Size = new System.Drawing.Size(174, 51);
             this.stop_recordButton.TabIndex = 4;
@@ -80,16 +74,33 @@
             // 
             this.openRecordDialog.FileName = "record";
             // 
+            // recordNameTextBox
+            // 
+            this.recordNameTextBox.Location = new System.Drawing.Point(148, 110);
+            this.recordNameTextBox.Name = "recordNameTextBox";
+            this.recordNameTextBox.Size = new System.Drawing.Size(174, 20);
+            this.recordNameTextBox.TabIndex = 5;
+            this.recordNameTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(198, 94);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Put record name";
+            // 
             // NewRecordForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(471, 351);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.recordNameTextBox);
             this.Controls.Add(this.stop_recordButton);
             this.Controls.Add(this.record_voiceButton);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "NewRecordForm";
             this.Text = "New Record";
             this.Load += new System.EventHandler(this.NewRecordForm_Load);
@@ -102,8 +113,10 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button record_voiceButton;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Button stop_recordButton;
-        private System.Windows.Forms.OpenFileDialog openRecordDialog;
+        public System.Windows.Forms.OpenFileDialog openRecordDialog;
+        public System.Windows.Forms.FolderBrowserDialog selectRecordFolderDialog;
+        private System.Windows.Forms.Label label2;
+        public System.Windows.Forms.TextBox recordNameTextBox;
     }
 }
