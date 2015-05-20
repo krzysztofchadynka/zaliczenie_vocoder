@@ -34,6 +34,8 @@ namespace vocoder
         private void record_voiceButton_Click(object sender, EventArgs e)
         {
             changeButtonsStatus(true);
+
+
         }
 
         private void stop_recordButton_Click(object sender, EventArgs e)

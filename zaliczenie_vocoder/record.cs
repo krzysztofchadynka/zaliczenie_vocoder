@@ -2,27 +2,34 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework.Audio;
+using NAudio;
+using NAudio.Wave;
 
 namespace vocoder
 {
-    class RecordItem
+    class Record
     {
-        private string name;
-        //private WaveIn 
+        private WaveIn source;
+        private WaveFileWriter waveFile;
 
-        public RecordItem(string name)
-        {
-            this.name = name;
-        }
-
-        public void createRecord()
+        public Record()
         {
 
         }
 
-        public void SaveRecord()
+        public void recordAudio()
         {
 
+        }
+
+        public void saveFile()
+        {
+        }
+
+        public void openFile()
+        {
+           
         }
     }
 }

@@ -14,3 +14,6 @@ G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zalicze
 G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\vocoder.Properties.Resources.resources
 G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\zaliczenie_vocoder.csproj.GenerateResource.Cache
 G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\obj\x86\Debug\zaliczenie_vocoder.csprojResolveAssemblyReference.cache
+G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\NAudio.dll
+G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\NAudio.WindowsMediaFormat.dll
+G:\Studia\Magisterka\Semestr I\Programowanie w Środowiskach RAD\Projekt zaliczeniowy\zaliczenie_vocoder\zaliczenie_vocoder\bin\Debug\NAudio.xml
