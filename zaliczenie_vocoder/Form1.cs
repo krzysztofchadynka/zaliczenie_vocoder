@@ -33,8 +33,8 @@ namespace vocoder
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 string sourceFile = ofd.FileName;
-                Console.Out.WriteLine("Nazwa pliku: " + sourceFile);
-                record.openFile(sourceFile);
+                AddEffectForm form = new AddEffectForm(sourceFile);
+                form.Show();
             }
         }
 

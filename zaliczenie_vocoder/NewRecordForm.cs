@@ -13,6 +13,7 @@ namespace vocoder
     public partial class NewRecordForm : Form
     {
         private Record new_record;
+        private AddEffectForm add_effect;
 
         public NewRecordForm()
         {
@@ -45,7 +46,11 @@ namespace vocoder
         {
             changeButtonsStatus(false);
             if (new_record != null)
+            {
                 new_record.stopRecording();
+                add_effect = new AddEffectForm(selectRecordFolderDialog.SelectedPath + "\\" + recordNameTextBox.Text);
+                add_effect.Show();
+            }
         }
 
         private void NewRecordForm_Load(object sender, EventArgs e)
