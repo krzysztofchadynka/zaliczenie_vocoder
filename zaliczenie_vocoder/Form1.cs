@@ -32,8 +32,7 @@ namespace vocoder
             ofd.Filter = "WAV files (*.wav)|*.wav|All files (*.*)|*.*"; 
             if (ofd.ShowDialog() == DialogResult.OK)
             {
-                string sourceFile = ofd.FileName;
-                AddEffectForm form = new AddEffectForm(sourceFile);
+                AddEffectForm form = new AddEffectForm(ofd.FileName);
                 form.Show();
             }
         }

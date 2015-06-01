@@ -32,17 +32,14 @@
             this.effect_tempo_track = new System.Windows.Forms.TrackBar();
             this.effect_pitch_track = new System.Windows.Forms.TrackBar();
             this.effect_rate_track = new System.Windows.Forms.TrackBar();
-            this.effect_bpm_track = new System.Windows.Forms.TrackBar();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.effect_generate_button = new System.Windows.Forms.Button();
             this.effect_play_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.effect_tempo_track)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.effect_pitch_track)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.effect_rate_track)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.effect_bpm_track)).BeginInit();
             this.SuspendLayout();
             // 
             // effect_file_name
@@ -65,7 +62,7 @@
             // 
             // effect_pitch_track
             // 
-            this.effect_pitch_track.Location = new System.Drawing.Point(112, 124);
+            this.effect_pitch_track.Location = new System.Drawing.Point(112, 141);
             this.effect_pitch_track.Maximum = 60;
             this.effect_pitch_track.Minimum = -60;
             this.effect_pitch_track.Name = "effect_pitch_track";
@@ -74,22 +71,12 @@
             // 
             // effect_rate_track
             // 
-            this.effect_rate_track.Location = new System.Drawing.Point(112, 175);
-            this.effect_rate_track.Maximum = 5000;
+            this.effect_rate_track.Location = new System.Drawing.Point(112, 202);
+            this.effect_rate_track.Maximum = 200;
             this.effect_rate_track.Minimum = -95;
             this.effect_rate_track.Name = "effect_rate_track";
             this.effect_rate_track.Size = new System.Drawing.Size(347, 45);
             this.effect_rate_track.TabIndex = 3;
-            // 
-            // effect_bpm_track
-            // 
-            this.effect_bpm_track.Location = new System.Drawing.Point(112, 226);
-            this.effect_bpm_track.Maximum = 200;
-            this.effect_bpm_track.Minimum = 10;
-            this.effect_bpm_track.Name = "effect_bpm_track";
-            this.effect_bpm_track.Size = new System.Drawing.Size(347, 45);
-            this.effect_bpm_track.TabIndex = 4;
-            this.effect_bpm_track.Value = 10;
             // 
             // label1
             // 
@@ -105,7 +92,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(19, 124);
+            this.label2.Location = new System.Drawing.Point(19, 141);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 28);
             this.label2.TabIndex = 6;
@@ -115,21 +102,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(19, 175);
+            this.label3.Location = new System.Drawing.Point(19, 202);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 28);
             this.label3.TabIndex = 7;
             this.label3.Text = "Rate";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(19, 226);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 28);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "BPM";
             // 
             // effect_generate_button
             // 
@@ -151,6 +128,7 @@
             this.effect_play_button.TabIndex = 10;
             this.effect_play_button.Text = "Play";
             this.effect_play_button.UseVisualStyleBackColor = true;
+            this.effect_play_button.Click += new System.EventHandler(this.effect_play_button_Click);
             // 
             // AddEffectForm
             // 
@@ -159,11 +137,9 @@
             this.ClientSize = new System.Drawing.Size(471, 351);
             this.Controls.Add(this.effect_play_button);
             this.Controls.Add(this.effect_generate_button);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.effect_bpm_track);
             this.Controls.Add(this.effect_rate_track);
             this.Controls.Add(this.effect_pitch_track);
             this.Controls.Add(this.effect_tempo_track);
@@ -174,7 +150,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.effect_tempo_track)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.effect_pitch_track)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.effect_rate_track)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.effect_bpm_track)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,11 +161,9 @@
         private System.Windows.Forms.TrackBar effect_tempo_track;
         private System.Windows.Forms.TrackBar effect_pitch_track;
         private System.Windows.Forms.TrackBar effect_rate_track;
-        private System.Windows.Forms.TrackBar effect_bpm_track;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button effect_generate_button;
         private System.Windows.Forms.Button effect_play_button;
     }
