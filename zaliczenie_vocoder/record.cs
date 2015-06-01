@@ -17,6 +17,7 @@ namespace vocoder
         private WaveFileWriter waveFile;
         private NewRecordForm record_form;
         private AudioFileReader reader;
+        private IWavePlayer player;
 
         public Record()
         {
@@ -70,24 +71,27 @@ namespace vocoder
         public void openFile(String path)
         {
             this.reader = new AudioFileReader(path);
-            play(5000);
+            //play(5000);
         }
 
-        public void play(int time)
+        public void play()
         {
             if (this.reader != null)
             {
-                IWavePlayer player = new WaveOut(WaveCallbackInfo.FunctionCallback());
+                player = new WaveOut(WaveCallbackInfo.FunctionCallback());
                 player.Init(this.reader);
                 player.Play();
-                if (time > 0) { Thread.Sleep(time); }// for pasued thread after 5sec
-                player.Stop();
-                player.Dispose();
             }
             else
             {
                 MessageBox.Show("You didn't select any audio file to play");
             }
+        }
+
+        public void stop()
+        {
+            player.Stop();
+            player.Dispose();
         }
     }
 }
