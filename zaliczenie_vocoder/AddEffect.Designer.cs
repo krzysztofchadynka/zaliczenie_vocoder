@@ -46,45 +46,50 @@
             // 
             this.effect_file_name.AutoSize = true;
             this.effect_file_name.Font = new System.Drawing.Font("Calisto MT", 24F, System.Drawing.FontStyle.Bold);
-            this.effect_file_name.Location = new System.Drawing.Point(106, 9);
+            this.effect_file_name.Location = new System.Drawing.Point(141, 11);
+            this.effect_file_name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.effect_file_name.Name = "effect_file_name";
-            this.effect_file_name.Size = new System.Drawing.Size(0, 36);
+            this.effect_file_name.Size = new System.Drawing.Size(0, 46);
             this.effect_file_name.TabIndex = 0;
             // 
             // effect_tempo_track
             // 
-            this.effect_tempo_track.Location = new System.Drawing.Point(112, 73);
+            this.effect_tempo_track.Location = new System.Drawing.Point(149, 90);
+            this.effect_tempo_track.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.effect_tempo_track.Maximum = 200;
             this.effect_tempo_track.Minimum = -95;
             this.effect_tempo_track.Name = "effect_tempo_track";
-            this.effect_tempo_track.Size = new System.Drawing.Size(347, 45);
+            this.effect_tempo_track.Size = new System.Drawing.Size(463, 56);
             this.effect_tempo_track.TabIndex = 1;
             // 
             // effect_pitch_track
             // 
-            this.effect_pitch_track.Location = new System.Drawing.Point(112, 141);
+            this.effect_pitch_track.Location = new System.Drawing.Point(149, 174);
+            this.effect_pitch_track.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.effect_pitch_track.Maximum = 60;
             this.effect_pitch_track.Minimum = -60;
             this.effect_pitch_track.Name = "effect_pitch_track";
-            this.effect_pitch_track.Size = new System.Drawing.Size(347, 45);
+            this.effect_pitch_track.Size = new System.Drawing.Size(463, 56);
             this.effect_pitch_track.TabIndex = 2;
             // 
             // effect_rate_track
             // 
-            this.effect_rate_track.Location = new System.Drawing.Point(112, 202);
+            this.effect_rate_track.Location = new System.Drawing.Point(149, 249);
+            this.effect_rate_track.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.effect_rate_track.Maximum = 200;
             this.effect_rate_track.Minimum = -95;
             this.effect_rate_track.Name = "effect_rate_track";
-            this.effect_rate_track.Size = new System.Drawing.Size(347, 45);
+            this.effect_rate_track.Size = new System.Drawing.Size(463, 56);
             this.effect_rate_track.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(19, 73);
+            this.label1.Location = new System.Drawing.Point(25, 90);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 28);
+            this.label1.Size = new System.Drawing.Size(103, 34);
             this.label1.TabIndex = 5;
             this.label1.Text = "Tempo";
             // 
@@ -92,9 +97,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(19, 141);
+            this.label2.Location = new System.Drawing.Point(25, 174);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 28);
+            this.label2.Size = new System.Drawing.Size(83, 34);
             this.label2.TabIndex = 6;
             this.label2.Text = "Pitch";
             // 
@@ -102,18 +108,20 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calisto MT", 18F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(19, 202);
+            this.label3.Location = new System.Drawing.Point(25, 249);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 28);
+            this.label3.Size = new System.Drawing.Size(76, 34);
             this.label3.TabIndex = 7;
             this.label3.Text = "Rate";
             // 
             // effect_generate_button
             // 
             this.effect_generate_button.Font = new System.Drawing.Font("Calisto MT", 15.75F, System.Drawing.FontStyle.Bold);
-            this.effect_generate_button.Location = new System.Drawing.Point(24, 278);
+            this.effect_generate_button.Location = new System.Drawing.Point(32, 342);
+            this.effect_generate_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.effect_generate_button.Name = "effect_generate_button";
-            this.effect_generate_button.Size = new System.Drawing.Size(154, 51);
+            this.effect_generate_button.Size = new System.Drawing.Size(205, 63);
             this.effect_generate_button.TabIndex = 9;
             this.effect_generate_button.Text = "Generate";
             this.effect_generate_button.UseVisualStyleBackColor = true;
@@ -122,9 +130,10 @@
             // effect_play_button
             // 
             this.effect_play_button.Font = new System.Drawing.Font("Calisto MT", 15.75F, System.Drawing.FontStyle.Bold);
-            this.effect_play_button.Location = new System.Drawing.Point(305, 278);
+            this.effect_play_button.Location = new System.Drawing.Point(407, 342);
+            this.effect_play_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.effect_play_button.Name = "effect_play_button";
-            this.effect_play_button.Size = new System.Drawing.Size(154, 51);
+            this.effect_play_button.Size = new System.Drawing.Size(205, 63);
             this.effect_play_button.TabIndex = 10;
             this.effect_play_button.Text = "Play";
             this.effect_play_button.UseVisualStyleBackColor = true;
@@ -132,9 +141,9 @@
             // 
             // AddEffectForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(471, 351);
+            this.ClientSize = new System.Drawing.Size(628, 432);
             this.Controls.Add(this.effect_play_button);
             this.Controls.Add(this.effect_generate_button);
             this.Controls.Add(this.label3);
@@ -144,8 +153,10 @@
             this.Controls.Add(this.effect_pitch_track);
             this.Controls.Add(this.effect_tempo_track);
             this.Controls.Add(this.effect_file_name);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AddEffectForm";
             this.Text = "AddEffectForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddEffectForm_FormClosing);
             this.Load += new System.EventHandler(this.AddEffect_Load);
             ((System.ComponentModel.ISupportInitialize)(this.effect_tempo_track)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.effect_pitch_track)).EndInit();

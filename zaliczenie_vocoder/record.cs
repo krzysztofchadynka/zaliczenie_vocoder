@@ -7,7 +7,6 @@ using System.Windows.Forms;
 using NAudio;
 using NAudio.Wave;
 using System.Threading;
-using System.Windows.Forms;
 
 namespace vocoder
 {
@@ -70,8 +69,8 @@ namespace vocoder
 
         public void openFile(String path)
         {
+            Console.Out.WriteLine("Path: " + path);
             this.reader = new AudioFileReader(path);
-            //play(5000);
         }
 
         public void play()

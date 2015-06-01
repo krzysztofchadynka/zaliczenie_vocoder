@@ -20,7 +20,7 @@ namespace vocoder
 
         public string getNewPath()
         {
-            return Path.GetDirectoryName(this.file_patch) + "\\output.wav";
+            return Path.GetDirectoryName(this.file_patch) + "\\" + Path.GetFileNameWithoutExtension(this.file_patch) + "_output.wav";
         }
 
         public void GenerateQuery(int tempo = 0, int pitch = 0, int rate = 0)
@@ -31,7 +31,7 @@ namespace vocoder
             startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo.FileName = @"C:\Windows\System32\cmd.exe";
             startInfo.Arguments = "/c soundstretch " + this.file_patch + " " + Path.GetDirectoryName(this.file_patch) 
-                + "\\output.wav -tempo=" + tempo + 
+                + "\\"+ Path.GetFileNameWithoutExtension(this.file_patch)+"_output.wav -tempo=" + tempo + 
                 " -pitch=" + pitch + 
                 " -rate=" + rate;
             proccess.StartInfo = startInfo;

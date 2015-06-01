@@ -61,5 +61,13 @@ namespace vocoder
                 record.stop();
             }
         }
+
+        private void AddEffectForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (isPlaying)
+            {
+                record.stop();
+            }
+        }
     }
 }

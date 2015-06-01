@@ -39,12 +39,15 @@ namespace vocoder
             changeButtonsStatus(true);
             new_record = new Record();
             if (selectRecordFolderDialog.ShowDialog() == DialogResult.OK)
+            {
                 new_record.recordAudio(selectRecordFolderDialog.SelectedPath, recordNameTextBox.Text);
+            }
         }
 
         private void stop_recordButton_Click(object sender, EventArgs e)
         {
             changeButtonsStatus(false);
+            
             if (new_record != null)
             {
                 new_record.stopRecording();
